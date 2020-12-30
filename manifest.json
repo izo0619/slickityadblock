@@ -1,0 +1,10 @@
+{
+    "name": "Slickity Ad Block",
+    "version": "1.0",
+    "description": "frick ads",
+    "permissions": ["webRequest", "webRequestBlocking", "http://*/", "https://*/"],
+    "background": {
+        "scripts": ["blocked_sites.js", "background.js"]
+    },
+    "manifest_version": 2
+}
